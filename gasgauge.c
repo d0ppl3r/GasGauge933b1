@@ -1,16 +1,3 @@
-/* 
- 
-    GasGauge race condition yielding double free
-
-        (c) 2016 qwertyoruiop
- 
-    greetz: banty (this one is for you!) / filippobiga / windknown / morpheus / cturt / laughing_mantis / p0sixninja / osxreverser / trimo / beist / sn0w
-
-    by Kim Jong Cracks Research (please CVE it to them!)
- 
- */
-
-
 #import <IOKit/IOKitLib.h>
 #import <dlfcn.h>
 #import <pthread.h>
