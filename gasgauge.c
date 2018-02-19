@@ -1,3 +1,5 @@
+// GasGauge race condition yielding double free
+
 #import <IOKit/IOKitLib.h>
 #import <dlfcn.h>
 #import <pthread.h>
